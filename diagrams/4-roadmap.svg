@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="640" fill="#f8f6f1"/>
+  <text x="40" y="58" font-size="30" font-weight="700" fill="#1c1c1c">THE ROAD</text>
+  <text x="40" y="88" font-size="17" fill="#8a3a12">Prove it in a tank, then a real pond, then let the machines make their own parts. The asteroid is last.</text>
+  <line x1="40" y1="108" x2="960" y2="108" stroke="#cfcac0" stroke-width="1.5"/>
+
+  <!-- steps -->
+  <g font-size="15">
+    <!-- 1 -->
+    <rect x="40" y="140" width="170" height="150" rx="8" fill="#fff" stroke="#cfcac0"/>
+    <text x="56" y="170" font-size="26" font-weight="700" fill="#b5462a">1</text>
+    <text x="56" y="198" font-weight="700" fill="#1c1c1c">Tank model</text>
+    <text x="56" y="220" fill="#555">Small printed worm,</text>
+    <text x="56" y="240" fill="#555">sealed, digs in a tank</text>
+    <rect x="56" y="258" width="120" height="22" rx="11" fill="#efe3c4"/>
+    <text x="116" y="274" font-size="13" fill="#7a5a12" text-anchor="middle">designed</text>
+    <!-- 2 -->
+    <rect x="226" y="140" width="170" height="150" rx="8" fill="#fff" stroke="#cfcac0"/>
+    <text x="242" y="170" font-size="26" font-weight="700" fill="#b5462a">2</text>
+    <text x="242" y="198" font-weight="700" fill="#1c1c1c">Full-size worm</text>
+    <text x="242" y="220" fill="#555">Steel, tethered,</text>
+    <text x="242" y="240" fill="#555">digs a real hole</text>
+    <rect x="242" y="258" width="120" height="22" rx="11" fill="#e4e4e4"/>
+    <text x="302" y="274" font-size="13" fill="#555" text-anchor="middle">next</text>
+    <!-- 3 -->
+    <rect x="412" y="140" width="170" height="150" rx="8" fill="#fff" stroke="#cfcac0"/>
+    <text x="428" y="170" font-size="26" font-weight="700" fill="#b5462a">3</text>
+    <text x="428" y="198" font-weight="700" fill="#1c1c1c">Pond pilot</text>
+    <text x="428" y="220" fill="#555">Maps grade and digs</text>
+    <text x="428" y="240" fill="#555">in a working pond</text>
+    <rect x="428" y="258" width="120" height="22" rx="11" fill="#e4e4e4"/>
+    <text x="488" y="274" font-size="13" fill="#555" text-anchor="middle">site talks</text>
+    <!-- 4 -->
+    <rect x="598" y="140" width="170" height="150" rx="8" fill="#fff" stroke="#cfcac0"/>
+    <text x="614" y="170" font-size="26" font-weight="700" fill="#b5462a">4</text>
+    <text x="614" y="198" font-weight="700" fill="#1c1c1c">Grows on site</text>
+    <text x="614" y="220" fill="#555">Recovered iron</text>
+    <text x="614" y="240" fill="#555">becomes worm parts</text>
+    <rect x="614" y="258" width="120" height="22" rx="11" fill="#e4e4e4"/>
+    <text x="674" y="274" font-size="13" fill="#555" text-anchor="middle">later</text>
+    <!-- 5 -->
+    <rect x="784" y="140" width="176" height="150" rx="8" fill="#1c1c1c"/>
+    <text x="800" y="170" font-size="26" font-weight="700" fill="#e0a23a">5</text>
+    <text x="800" y="198" font-weight="700" fill="#fff">Asteroid seed</text>
+    <text x="800" y="220" fill="#ddd">One launch; the</text>
+    <text x="800" y="240" fill="#ddd">fleet builds itself</text>
+    <rect x="800" y="258" width="130" height="22" rx="11" fill="#3a3a3a"/>
+    <text x="865" y="274" font-size="13" fill="#e0a23a" text-anchor="middle">the destination</text>
+  </g>
+  <g fill="#b9b2a4">
+    <path d="M212 212 l12 3 l-12 3 z"/><path d="M398 212 l12 3 l-12 3 z"/>
+    <path d="M584 212 l12 3 l-12 3 z"/><path d="M770 212 l12 3 l-12 3 z"/>
+  </g>
+
+  <!-- loop -->
+  <line x1="40" y1="330" x2="960" y2="330" stroke="#cfcac0" stroke-width="1.5"/>
+  <text x="40" y="368" font-size="19" font-weight="700" fill="#1c1c1c">WHY IT HAS TO COPY ITSELF</text>
+  <text x="40" y="394" font-size="15" fill="#555">Every kilogram launched is expensive, and nothing gets resupplied.</text>
+  <text x="40" y="416" font-size="15" fill="#555">A machine that only mines stays one machine. A machine that also</text>
+  <text x="40" y="438" font-size="15" fill="#555">builds more of itself turns one launch into a fleet.</text>
+  <text x="40" y="478" font-size="15" fill="#555">The hard parts (chips, motors) are bought at first. Growth starts</text>
+  <text x="40" y="500" font-size="15" fill="#555">with the simple, heavy parts: casings, flights, frames.</text>
+
+  <g transform="translate(760 490)">
+    <circle cx="0" cy="0" r="105" fill="none" stroke="#cfcac0" stroke-width="14"/>
+    <g font-size="15" font-weight="700" text-anchor="middle">
+      <rect x="-50" y="-128" width="100" height="30" rx="15" fill="#b5462a"/>
+      <text x="0" y="-108" fill="#fff">dig</text>
+      <rect x="62" y="-16" width="110" height="30" rx="15" fill="#5b6770"/>
+      <text x="117" y="4" fill="#fff">process</text>
+      <rect x="-60" y="98" width="120" height="30" rx="15" fill="#c9a24a"/>
+      <text x="0" y="118" fill="#1c1c1c">make parts</text>
+      <rect x="-190" y="-16" width="130" height="30" rx="15" fill="#1f5c3a"/>
+      <text x="-125" y="4" fill="#fff">build a worm</text>
+    </g>
+    <g fill="#9a9384">
+      <path d="M78 -76 l4 14 l-14 -2 z"/><path d="M78 76 l-14 2 l4 -14 z"/>
+      <path d="M-78 76 l-4 -14 l14 2 z"/><path d="M-78 -76 l14 -2 l-4 14 z"/>
+    </g>
+  </g>
+</svg>

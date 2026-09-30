@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="520" fill="#f8f6f1"/>
+  <text x="40" y="58" font-size="30" font-weight="700" fill="#1c1c1c">WHY IT BURROWS</text>
+  <text x="40" y="88" font-size="17" fill="#8a3a12">On a rubble-pile asteroid there is almost no gravity to push against, and the surface is weaker than dry flour.</text>
+  <line x1="40" y1="108" x2="960" y2="108" stroke="#cfcac0" stroke-width="1.5"/>
+
+  <!-- LEFT: grab the surface -->
+  <text x="40" y="146" font-size="19" font-weight="700" fill="#8a3a12">GRAB THE SURFACE</text>
+  <text x="40" y="170" font-size="15" fill="#555">What everything flown so far does.</text>
+  <rect x="40" y="380" width="420" height="90" fill="#d8c7a3"/>
+  <g fill="#c4b08a">
+    <circle cx="80" cy="384" r="9"/><circle cx="130" cy="380" r="13"/><circle cx="200" cy="386" r="8"/>
+    <circle cx="290" cy="381" r="12"/><circle cx="360" cy="386" r="9"/><circle cx="420" cy="382" r="11"/>
+  </g>
+  <!-- lander -->
+  <rect x="200" y="250" width="110" height="60" rx="6" fill="#8f8f8f"/>
+  <line x1="210" y1="310" x2="180" y2="352" stroke="#6d6d6d" stroke-width="5"/>
+  <line x1="300" y1="310" x2="330" y2="352" stroke="#6d6d6d" stroke-width="5"/>
+  <path d="M170 352 l10 0 l-4 12 z M320 352 l10 0 l4 12 z" fill="#6d6d6d"/>
+  <rect x="248" y="310" width="14" height="62" fill="#6d6d6d"/>
+  <path d="M248 372 l14 0 l-7 14 z" fill="#6d6d6d"/>
+  <!-- reaction arrow -->
+  <line x1="380" y1="330" x2="380" y2="215" stroke="#8a3a12" stroke-width="4"/>
+  <path d="M368 222 l12 -22 l12 22 z" fill="#8a3a12"/>
+  <text x="395" y="250" font-size="15" fill="#8a3a12">every push</text>
+  <text x="395" y="270" font-size="15" fill="#8a3a12">comes back</text>
+  <text x="40" y="500" font-size="15" fill="#555">The drill pushes down; the reaction lifts the machine off.</text>
+
+  <!-- RIGHT: bury the body -->
+  <text x="540" y="146" font-size="19" font-weight="700" fill="#1f5c3a">BURY THE BODY</text>
+  <text x="540" y="170" font-size="15" fill="#555">The buried length is the anchor.</text>
+  <rect x="540" y="230" width="420" height="240" fill="#d8c7a3"/>
+  <g fill="#c4b08a">
+    <circle cx="570" cy="234" r="9"/><circle cx="640" cy="230" r="12"/><circle cx="740" cy="236" r="8"/>
+    <circle cx="830" cy="231" r="12"/><circle cx="920" cy="235" r="9"/>
+  </g>
+  <!-- tunnel + worm, slanted -->
+  <g transform="rotate(22 600 250)">
+    <rect x="590" y="236" width="360" height="40" rx="20" fill="#bfae8a"/>
+    <rect x="600" y="242" width="95" height="28" rx="6" fill="#b5462a"/>
+    <rect x="697" y="246" width="40" height="20" fill="#c9a24a"/>
+    <rect x="739" y="242" width="95" height="28" rx="6" fill="#b5462a"/>
+    <rect x="836" y="246" width="40" height="20" fill="#c9a24a"/>
+    <rect x="878" y="242" width="60" height="28" rx="6" fill="#b5462a"/>
+    <path d="M938 244 l18 12 l-18 12 z" fill="#d9642c"/>
+    <!-- holding arrows along the length -->
+    <g stroke="#1f5c3a" stroke-width="3">
+      <line x1="620" y1="228" x2="620" y2="206"/><line x1="680" y1="228" x2="680" y2="206"/>
+      <line x1="760" y1="228" x2="760" y2="206"/><line x1="820" y1="228" x2="820" y2="206"/>
+      <line x1="900" y1="228" x2="900" y2="206"/>
+      <line x1="620" y1="284" x2="620" y2="306"/><line x1="680" y1="284" x2="680" y2="306"/>
+      <line x1="760" y1="284" x2="760" y2="306"/><line x1="820" y1="284" x2="820" y2="306"/>
+      <line x1="900" y1="284" x2="900" y2="306"/>
+    </g>
+  </g>
+  <text x="540" y="500" font-size="15" fill="#555">Load spreads into the ground along the whole string, not one point.</text>
+</svg>

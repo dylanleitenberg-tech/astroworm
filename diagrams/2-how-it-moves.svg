@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="600" fill="#f8f6f1"/>
+  <text x="40" y="58" font-size="30" font-weight="700" fill="#1c1c1c">HOW IT MOVES</text>
+  <text x="40" y="88" font-size="17" fill="#8a3a12">Two gripping sections and one push between them. One actuator, no sequencing: the feet do the switching.</text>
+  <line x1="40" y1="108" x2="960" y2="108" stroke="#cfcac0" stroke-width="1.5"/>
+
+  <defs>
+    <!-- a foot that holds (green) and one that slides (grey); both lean back -->
+    <g id="footHold"><line x1="0" y1="0" x2="-16" y2="-12" stroke="#1f5c3a" stroke-width="4" stroke-linecap="round"/></g>
+    <g id="footSlide"><line x1="0" y1="0" x2="-18" y2="-6" stroke="#9a9a9a" stroke-width="4" stroke-linecap="round"/></g>
+    <g id="bore">
+      <rect x="0" y="0" width="640" height="64" fill="#e9dfc8"/>
+      <line x1="0" y1="0" x2="640" y2="0" stroke="#b9a67e" stroke-width="3"/>
+      <line x1="0" y1="64" x2="640" y2="64" stroke="#b9a67e" stroke-width="3"/>
+    </g>
+  </defs>
+
+  <!-- ROW 1: extend -->
+  <text x="40" y="150" font-size="19" font-weight="700" fill="#1c1c1c">1  EXTEND</text>
+  <text x="40" y="174" font-size="15" fill="#555">The rear section holds.</text>
+  <text x="40" y="194" font-size="15" fill="#555">The front section and head</text>
+  <text x="40" y="214" font-size="15" fill="#555">are pushed forward and cut.</text>
+  <g transform="translate(300 150)">
+    <use href="#bore"/>
+    <rect x="30" y="12" width="210" height="40" rx="6" fill="#b5462a"/>
+    <rect x="240" y="20" width="110" height="24" fill="#c9a24a"/>
+    <rect x="350" y="12" width="210" height="40" rx="6" fill="#b5462a"/>
+    <path d="M560 14 l40 18 l-40 18 z" fill="#d9642c"/>
+    <g transform="translate(80 12)"><use href="#footHold"/></g><g transform="translate(160 12)"><use href="#footHold"/></g>
+    <g transform="translate(80 52) scale(1 -1)"><use href="#footHold"/></g><g transform="translate(160 52) scale(1 -1)"><use href="#footHold"/></g>
+    <g transform="translate(400 12)"><use href="#footSlide"/></g><g transform="translate(480 12)"><use href="#footSlide"/></g>
+    <g transform="translate(400 52) scale(1 -1)"><use href="#footSlide"/></g><g transform="translate(480 52) scale(1 -1)"><use href="#footSlide"/></g>
+    <line x1="570" y1="-14" x2="630" y2="-14" stroke="#1c1c1c" stroke-width="3"/>
+    <path d="M628 -21 l14 7 l-14 7 z" fill="#1c1c1c"/>
+    <text x="30" y="90" font-size="14" fill="#1f5c3a">holds</text>
+    <text x="350" y="90" font-size="14" fill="#777">slides</text>
+  </g>
+
+  <!-- ROW 2: retract -->
+  <text x="40" y="300" font-size="19" font-weight="700" fill="#1c1c1c">2  RETRACT</text>
+  <text x="40" y="324" font-size="15" fill="#555">The front section holds.</text>
+  <text x="40" y="344" font-size="15" fill="#555">The rear section is drawn</text>
+  <text x="40" y="364" font-size="15" fill="#555">up behind it. Repeat.</text>
+  <g transform="translate(300 300)">
+    <use href="#bore"/>
+    <rect x="140" y="12" width="210" height="40" rx="6" fill="#b5462a"/>
+    <rect x="350" y="20" width="0" height="24" fill="#c9a24a"/>
+    <rect x="350" y="12" width="210" height="40" rx="6" fill="#b5462a"/>
+    <path d="M560 14 l40 18 l-40 18 z" fill="#d9642c"/>
+    <g transform="translate(190 12)"><use href="#footSlide"/></g><g transform="translate(270 12)"><use href="#footSlide"/></g>
+    <g transform="translate(190 52) scale(1 -1)"><use href="#footSlide"/></g><g transform="translate(270 52) scale(1 -1)"><use href="#footSlide"/></g>
+    <g transform="translate(400 12)"><use href="#footHold"/></g><g transform="translate(480 12)"><use href="#footHold"/></g>
+    <g transform="translate(400 52) scale(1 -1)"><use href="#footHold"/></g><g transform="translate(480 52) scale(1 -1)"><use href="#footHold"/></g>
+    <line x1="30" y1="-14" x2="120" y2="-14" stroke="#1c1c1c" stroke-width="3"/>
+    <path d="M118 -21 l14 7 l-14 7 z" fill="#1c1c1c"/>
+    <text x="140" y="90" font-size="14" fill="#777">slides</text>
+    <text x="350" y="90" font-size="14" fill="#1f5c3a">holds</text>
+  </g>
+
+  <!-- foot principle -->
+  <line x1="40" y1="420" x2="960" y2="420" stroke="#cfcac0" stroke-width="1.5"/>
+  <text x="40" y="458" font-size="19" font-weight="700" fill="#1c1c1c">WHY THE FEET SWITCH THEMSELVES</text>
+  <text x="40" y="484" font-size="15" fill="#555">Each foot leans back on a trailing link, like the bristles on a bottle brush.</text>
+  <text x="40" y="506" font-size="15" fill="#555">Moving forward, the wall folds it flat and it slides. Pulled backward, it swings out,</text>
+  <text x="40" y="528" font-size="15" fill="#555">wedges into the wall and jams. Holding comes from geometry, not from a controller.</text>
+  <g transform="translate(690 440)">
+    <!-- jams -->
+    <rect x="0" y="0" width="120" height="28" fill="#d8c7a3"/>
+    <rect x="0" y="28" width="120" height="50" fill="#f1ebdd"/>
+    <line x1="0" y1="28" x2="120" y2="28" stroke="#b9a67e" stroke-width="3"/>
+    <rect x="0" y="78" width="120" height="14" fill="#b5462a"/>
+    <line x1="84" y1="78" x2="52" y2="24" stroke="#1f5c3a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="84" cy="78" r="6" fill="#1c1c1c"/>
+    <line x1="110" y1="108" x2="60" y2="108" stroke="#1c1c1c" stroke-width="2.5"/>
+    <path d="M62 102 l-12 6 l12 6 z" fill="#1c1c1c"/>
+    <text x="0" y="132" font-size="14" fill="#1f5c3a">pulled back: jams</text>
+    <!-- folds -->
+    <rect x="150" y="0" width="120" height="28" fill="#d8c7a3"/>
+    <rect x="150" y="28" width="120" height="50" fill="#f1ebdd"/>
+    <line x1="150" y1="28" x2="270" y2="28" stroke="#b9a67e" stroke-width="3"/>
+    <rect x="150" y="78" width="120" height="14" fill="#b5462a"/>
+    <line x1="234" y1="78" x2="174" y2="58" stroke="#9a9a9a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="234" cy="78" r="6" fill="#1c1c1c"/>
+    <line x1="200" y1="108" x2="250" y2="108" stroke="#1c1c1c" stroke-width="2.5"/>
+    <path d="M248 102 l12 6 l-12 6 z" fill="#1c1c1c"/>
+    <text x="150" y="132" font-size="14" fill="#777">moving on: folds</text>
+  </g>
+</svg>

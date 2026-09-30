@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="600" fill="#f8f6f1"/>
+  <text x="40" y="58" font-size="30" font-weight="700" fill="#1c1c1c">ON EARTH FIRST: THE WATER WORM</text>
+  <text x="40" y="88" font-size="17" fill="#8a3a12">Old mines left metal behind in their tailings ponds. The same body, sealed, burrows through them under water.</text>
+  <line x1="40" y1="108" x2="960" y2="108" stroke="#cfcac0" stroke-width="1.5"/>
+
+  <!-- sky/ground frame -->
+  <!-- shore -->
+  <path d="M40 230 L230 230 L300 300 L300 560 L40 560 Z" fill="#cdbf9f"/>
+  <!-- processing plant -->
+  <rect x="100" y="160" width="130" height="70" fill="#5b6770"/>
+  <rect x="115" y="140" width="22" height="22" fill="#5b6770"/>
+  <text x="165" y="200" font-size="14" fill="#fff" text-anchor="middle">processing</text>
+  <text x="165" y="218" font-size="14" fill="#fff" text-anchor="middle">plant</text>
+  <!-- metal out -->
+  <line x1="100" y1="200" x2="56" y2="200" stroke="#1f5c3a" stroke-width="3"/>
+  <path d="M60 194 l-12 6 l12 6 z" fill="#1f5c3a"/>
+  <text x="46" y="186" font-size="14" font-weight="700" fill="#1f5c3a">metal</text>
+
+  <!-- pond: water, tailings, natural floor -->
+  <path d="M300 300 L960 300 L960 560 L300 560 Z" fill="#8a8373"/>
+  <rect x="300" y="300" width="660" height="80" fill="#9cc3d8"/>
+  <rect x="300" y="380" width="660" height="130" fill="#b9ab8c"/>
+  <g stroke="#a39574" stroke-width="1.2">
+    <line x1="300" y1="405" x2="960" y2="405"/><line x1="300" y1="435" x2="960" y2="435"/>
+    <line x1="300" y1="465" x2="960" y2="465"/><line x1="300" y1="495" x2="960" y2="495"/>
+  </g>
+  <text x="945" y="345" font-size="15" fill="#23506a" text-anchor="end">water cover, never broken</text>
+  <text x="945" y="400" font-size="15" fill="#5a4c30" text-anchor="end">old tailings</text>
+  <text x="945" y="545" font-size="15" fill="#f1ede4" text-anchor="end">natural floor</text>
+  <!-- rich zone -->
+  <ellipse cx="760" cy="455" rx="95" ry="30" fill="#c98f3a" opacity="0.75"/>
+  <text x="760" y="460" font-size="14" fill="#3b2508" text-anchor="middle">richer zone</text>
+
+  <!-- float -->
+  <rect x="470" y="288" width="70" height="16" rx="8" fill="#e0a23a"/>
+  <!-- tether + slurry hose from plant to float -->
+  <path d="M230 205 C 340 205, 400 290, 470 294" fill="none" stroke="#1c1c1c" stroke-width="3"/>
+  <path d="M230 215 C 340 215, 400 300, 470 300" fill="none" stroke="#6b4a2b" stroke-width="5"/>
+  <!-- down to worm -->
+  <path d="M505 304 C 505 360, 500 410, 520 445" fill="none" stroke="#1c1c1c" stroke-width="3"/>
+  <path d="M513 304 C 513 360, 508 410, 528 445" fill="none" stroke="#6b4a2b" stroke-width="5"/>
+
+  <!-- worm in tailings -->
+  <rect x="505" y="440" width="175" height="26" rx="13" fill="#a99c7c"/>
+  <rect x="512" y="443" width="60" height="20" rx="4" fill="#b5462a"/>
+  <rect x="573" y="447" width="22" height="12" fill="#c9a24a"/>
+  <rect x="596" y="443" width="60" height="20" rx="4" fill="#b5462a"/>
+  <path d="M656 444 l18 9 l-18 9 z" fill="#d9642c"/>
+  <!-- sensing -->
+  <g stroke="#2a6f97" stroke-width="2" fill="none">
+    <path d="M684 440 q10 13 0 26"/><path d="M694 434 q16 19 0 38"/><path d="M704 428 q22 25 0 50"/>
+  </g>
+
+  <!-- callouts -->
+  <line x1="690" y1="425" x2="690" y2="160" stroke="#2a6f97" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="700" y="160" font-size="15" font-weight="700" fill="#2a6f97">SENSES AS IT DIGS</text>
+  <text x="700" y="180" font-size="14" fill="#444">Sulphide-rich tailings conduct better</text>
+  <text x="700" y="198" font-size="14" fill="#444">than clean sand. The nose reads the</text>
+  <text x="700" y="216" font-size="14" fill="#444">ground ahead and steers toward it.</text>
+
+  <line x1="360" y1="250" x2="360" y2="160" stroke="#6b4a2b" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="370" y="160" font-size="15" font-weight="700" fill="#6b4a2b">SLURRY UP, POWER DOWN</text>
+  <text x="370" y="180" font-size="14" fill="#444">Tailings leave as slurry in a hose;</text>
+  <text x="370" y="198" font-size="14" fill="#444">power and data come down one tether.</text>
+
+  <text x="40" y="585" font-size="15" fill="#555">A dredge takes whatever is in front of it. The worm takes the rich part and leaves the rest where it lies.</text>
+</svg>

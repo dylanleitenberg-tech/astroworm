@@ -62,13 +62,20 @@ proven, one step at a time, on ground that can be reached by truck.
 | | |
 |---|---|
 | Asteroid anchor (the worm) | Designed in CAD; load paths and anchoring analysed |
-| 2 m terrestrial test article | Drawn, **not built** |
+| Terrestrial test article | Drawn, **not built** |
 | Water Worm W1 (tank model) | Designed in CAD, layout and leak checks pass, **not built** |
 | Full-size water worm | Concept; first-prototype budget estimated |
 | Pond pilot | A mine operator has agreed to share site data |
 
 Unbuilt things are labelled unbuilt. When something is tested, the result goes
 here, including when it fails.
+
+## The terrestrial test article
+
+![bench article](astroworm-bench-cad.png)
+
+*Unbuilt. General arrangement for a terrestrial test article of the worm, to be
+run horizontally in wet sand. Measurements redacted.*
 
 ## What is not here
 
